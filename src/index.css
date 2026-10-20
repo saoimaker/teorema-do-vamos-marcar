@@ -1,0 +1,6 @@
+@tailwind base;@tailwind components;@tailwind utilities;
+html{scroll-behavior:smooth}body{background:#0b1220;color:#e2e8f0;font-family:Inter,sans-serif}
+.panel{background:#141c2c;border:1px solid #1f2a40;border-radius:6px}
+.panel-h{padding:8px 14px;border-bottom:1px solid #1f2a40;font-size:11px;color:#7c8aa5}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+@keyframes tick{from{transform:translateX(0)}to{transform:translateX(-50%)}}
